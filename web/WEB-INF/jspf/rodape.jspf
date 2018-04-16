@@ -1,0 +1,9 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+    </article>
+        </main>
+    <footer>
+    DCC192 2018-1 CopyLeft CC-SA-NC
+    </footer>
+        </body>
+</html>
