@@ -7,7 +7,10 @@
             <c:if test="${idade>0}">
                 <p> Você tem ${idade} anos! </p>
         </c:if>
-      
-        
+                <ul>
+                <c:forEach items="${numeros}" var="numero">
+                    <li> ${numero} </li>
+                </c:forEach>
+                </ul>
         <p>São <%= new Date() %></p>
         <%@include file="jspf/rodape.jspf" %>
