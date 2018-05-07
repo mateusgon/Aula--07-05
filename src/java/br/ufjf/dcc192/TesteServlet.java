@@ -1,3 +1,4 @@
+package br.ufjf.dcc192;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -39,10 +40,7 @@ public class TesteServlet extends HttpServlet {
         {
             nome = "Desconhecido";
         }
-        RequestDispatcher despachante =  req.getRequestDispatcher("/WEB-INF/teste.jsp");
-            despachante.forward(req, resp);
-            
+        RequestDispatcher despachante =  req.getRequestDispatcher("/WEB-INF/teste.jsp");    
+        despachante.forward(req, resp);       
     }
-
-    
 }
